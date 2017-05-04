@@ -1,0 +1,20 @@
+.table {
+    padding: 100px 0;
+    width: 100%;
+}
+.table__th {
+    padding: 25px;
+    border: 1px solid #ddd;
+    text-align: right;
+    background-color: #fff;
+}
+.table__th:nth-child(2) {
+    border-right: 3px solid #ddd;
+}
+.table__thead {
+    color: #969ba1;
+    font-weight: bold;
+}
+.table__thead .table__th {
+    background-color: #fcfcfd;
+}

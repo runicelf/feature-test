@@ -1,0 +1,45 @@
+.header {
+    border-bottom: 1px solid #d4d8df;
+}
+.header__content {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 50px;
+    color: #969ba1;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+}
+.header__logo {
+    padding: 15px 0 10px 30px;
+    background-image: url('./../images/line.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.header__nav__elem {
+    padding: 15px 0 15px 60px;
+}
+.header__nav__a {
+    color: #969ba1;
+    text-decoration: none;
+}
+.header__nav__main {
+    background-image: url('./../images/house.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+}
+.header__nav__faq {
+    background-image: url('./../images/question.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+}
+.header__nav__profile {
+    background-image: url('./../images/photo.png');
+    background-repeat: no-repeat;
+}

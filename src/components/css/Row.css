@@ -1,0 +1,43 @@
+.table__add-payment {
+    padding: 20px 40px;
+    color: white;
+    border-radius: 35px;
+    background-color: #4097dc;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.table__tr:hover > .table__th {
+    background-color: #f6eedb;
+}
+.table__inf {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+}
+.table__price {
+    font-size: 20px;
+    color: #4097dc;
+}
+.table__cell-wrapper {
+    display: flex;
+}
+.table__close {
+    margin-right: 10px;
+}
+.__cross {
+    width: 35px;
+    height: 35px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background-color: inherit;
+    cursor: pointer;
+}
+.__cross__inside {
+    width: 13px;
+    height: 13px;
+    margin: auto;
+    background-image: linear-gradient(to bottom right, transparent 47%, #000 47%, #000 60%, transparent 60%), linear-gradient(to bottom left, transparent 47%, #000 47%, #000 60%, transparent 60%);
+}

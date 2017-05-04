@@ -1,0 +1,43 @@
+.title {
+  margin: auto;
+  padding: 50px 0 50px 0;
+  width: 600px;
+  color: #969ba1;
+  text-align: center;
+}
+.title__top {
+  display:block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.title__bottom {
+  display:block;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
+}
+.buttons {
+  padding-top: 50px;
+}
+.buttons__button {
+  padding: 20px 40px;
+  color: white;
+  border-radius: 35px;
+  background-color: #4097dc;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #4097dc;
+}
+.buttons__print {
+    border-color: #ccc;
+    color: #ccc;
+    background-color: inherit;
+    margin-left: 30px;
+}
+.main-wrapper {
+  padding: 0 10% 110px 10%;
+  background-color: #fcfcfd;
+}
