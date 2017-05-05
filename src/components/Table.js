@@ -20,7 +20,9 @@ export default class Table extends Component{
                 </thead>
                 <tbody className='table__data'>
                   {
-                  this.props.data.map( e => <Row data={e} removePayment={this.props.removePayment} prePayments={this.props.prePayments} addPopUp={this.props.addPopUp} />)
+                  this.props.data.map( e => <Row data={e} removePayment={this.props.removePayment} 
+                    prePayments={this.props.prePayments} 
+                    addPopUp={this.props.addPopUp} />)
                   }
                 </tbody>
           </table>

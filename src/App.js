@@ -82,6 +82,9 @@ class App extends Component {
   }
   changePopUpValue(e) {
     const preValue = e.target.value.split('').filter(e => e !== '₽' && e !== ' ');
+    if(isNaN(Number(preValue.join('')))) {
+      return;
+    }
     if(preValue.length > 15) {
       return;
     }
@@ -114,7 +117,10 @@ class App extends Component {
       <div className='wrapper'>
         <Header user={this.state.user.user}/>
         
-        {this.state.popup.open ? <PopUp closePopUp={this.closePopUp.bind(this)} data={this.state.popup} addPrePayment={this.addPrePayment.bind(this)} changePopUpValue={this.changePopUpValue.bind(this)}/>: ''}
+        {this.state.popup.open ? <PopUp closePopUp={this.closePopUp.bind(this)}
+          data={this.state.popup}
+          addPrePayment={this.addPrePayment.bind(this)}
+          changePopUpValue={this.changePopUpValue.bind(this)}/>: ''}
         <div className='main-wrapper'>
           <div className='title'>
                 <span className='title__top'>Оптимизация кредита: по сумме</span>
