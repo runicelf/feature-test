@@ -8,6 +8,9 @@
     text-align: right;
     background-color: #fff;
 }
+.table__button {
+    text-align: center;   
+}
 .table__th:nth-child(2) {
     border-right: 3px solid #ddd;
 }

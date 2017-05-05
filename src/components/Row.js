@@ -41,7 +41,7 @@ export default class Row extends Component {
             <th className='table__th'>{this.editNum(this.props.data.debt)}</th>
             <th className='table__th'>{this.editNum(this.props.data.percent)}</th>
             <th className='table__th'>{this.editNum(this.props.data.payment)}</th>
-            <th className='table__th'>{this.isButtonActive(this.props.prePayments[this.props.data.num])}</th>
+            <th className='table__th table__button'>{this.isButtonActive(this.props.prePayments[this.props.data.num])}</th>
           </tr>  
         );
     }
